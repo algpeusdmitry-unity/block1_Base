@@ -25,6 +25,8 @@ namespace Основы_программирования.Task7
             minutes = peopleCount * receptionTime - hours * hour;
 
             Console.Write($"Вы должны отстоять в очереди {hours} часа и {minutes} минут.");
+
+            // update
         }
     }
 }
