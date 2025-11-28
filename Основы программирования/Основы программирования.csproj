@@ -45,9 +45,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1\BootTask1.cs" />
+    <Compile Include="Task2\BootTask2.cs" />
+    <Compile Include="Task3\BootTask3.cs" />
+    <Compile Include="Task4\BootTask4.cs" />
+    <Compile Include="Task5\BootTask5.cs" />
+    <Compile Include="Task6\BootTask6.cs" />
+    <Compile Include="Task7\BootTask7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Task3\Task\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
