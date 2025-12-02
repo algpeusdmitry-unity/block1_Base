@@ -10,16 +10,16 @@ namespace Основы_программирования.Task1
     {
         // Объявите 10 переменных и присвойте им значения. Минимум 5 типов переменных должны быть разными. Одна из переменных должна быть типа bool.
 
-        string shopName = "Magic Shop";
-        int typesOfPotions = 99;
-        long totalHealingPotionsInStock = 9999999999;
-        double healingPotionPrice = 99.9;
-        long totalPoisonPotionsInStock = 9999;
-        double poisonPotionPrice = 999.9;
-        float fee = 9.99f;
-        bool isShopOpen = true;
-        char potionGrade = 'А';
-        byte amountOfPotionTypes = 2;
-        short visitorsToday = 999;
+        private string _shopName = "Magic Shop";
+        private int _typesOfPotions = 99;
+        private long _totalHealingPotionsInStock = 9999999999;
+        private double _healingPotionPrice = 99.9;
+        private long _totalPoisonPotionsInStock = 9999;
+        private double _poisonPotionPrice = 999.9;
+        private float _fee = 9.99f;
+        private bool _isShopOpen = true;
+        private char _potionGrade = 'A';
+        private byte _amountOfPotionTypes = 2;
+        private short _visitorsToday = 999;
     }
 }

@@ -8,14 +8,14 @@ namespace Основы_программирования.Task6
 {
     internal class BootTask6
     {
+        private int gold;
+        private int crystals;
+        private int crystalPrice = 10;
+
         public void Run()
         {
             // Вы приходите в магазин и хотите купить за своё золото кристаллы. В вашем кошельке есть какое-то количество золота, продавец спрашивает у вас, сколько кристаллов вы хотите купить?
             // После сделки у вас остаётся какое-то количество золота в кошельке и появляется какое-то количество кристаллов.
-
-            int gold;
-            int crystals;
-            int crystalPrice = 10;
 
             Console.Write("Сколько у Вас золота? ");
             gold = Convert.ToInt32(Console.ReadLine());
